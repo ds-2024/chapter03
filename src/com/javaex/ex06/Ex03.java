@@ -26,7 +26,7 @@ public class Ex03 {
 		*/
 		
 		//문자열 --> 정수 
-		int result = Integer.parseInt("12345");
+		int result = Integer.parseInt("12345"); //대문자로 변수이름 짓지 말라는 이유
 		System.out.println(result +3 );
 		
 		/*
@@ -35,7 +35,12 @@ public class Ex03 {
 		System.out.println(rsult02 +2);
 		*/
 		
+		//정수 --> 문자열
 		String result02 = String.valueOf(999);
 		System.out.println(result02 +2);
+		
+		String result03 = "" + 999;
+		
+		System.out.println("999" +2);
 	}
 }

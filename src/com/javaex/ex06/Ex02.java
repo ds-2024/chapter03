@@ -66,15 +66,15 @@ public class Ex02 {
 			}
 			
 			System.out.println("--------------------------");
-			String s03 = "안녕";
+			String s03= null;
 			if("안녕".equals("s03")){
-					
+			}
 			
-			
+		}	
 			
 		}
 		
 
 	}
 
-}
+
